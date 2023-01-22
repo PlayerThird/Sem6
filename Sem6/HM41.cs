@@ -11,7 +11,23 @@ namespace Sem6
     {
         internal static void Start()
         {
-            throw new NotImplementedException();
+            int[] numbers = Mass.CreateArray();
+            Mass.ShowArray(numbers);
+            Checking(numbers);
+
+            void Checking(int[] mass)
+            {
+                int j = 0;
+                for (int i = 0; i < mass.Length; i++)
+                {
+
+                    if (mass[i] > 0)
+                    {
+                        j++;
+                    }
+                }
+                Console.WriteLine($"Всего положительных чисел = {j}");
+            }
         }
     }
 }

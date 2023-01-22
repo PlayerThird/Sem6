@@ -30,7 +30,7 @@ namespace Sem6
             T Input;
             do
             {
-                Console.Clear();
+               // Console.Clear();
                 Console.WriteLine(InputMessage);
                 if (Parse(Console.ReadLine(), out Input))//пытается проверить на число или нет
                 {

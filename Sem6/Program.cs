@@ -11,7 +11,7 @@ namespace Sem6
             Console.ReadLine();
             //сделать весь список
             //HM39.Start();
-            //HM40.Start();//Переделать
+            //HM40.Start();
             //HM41.Start();
             //HM42.Start();
             //HM43.Start();
